@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+// Barra de navegación <nav>
+.menu {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid gray
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.nav {
+    text-align: right;
+    float: right;
+}
+
+.nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.input-menu {
+    border-radius: 30px;
+}
+
+// Sección principal
+main{
+width: 100%;
+float: left;
+}
+
+.listad-noticias {
+    width: 1000px;
+    float: left;
+}
+
+.noticia {
+    width: 210px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.cuerpo img {
+    width: 100%;
+    height: auto;
+}
+
+.cuerpo p {
+    padding: 5px 10px;
+}
+
+// Area lado derecho de Blog
+aside {
+    float: right;
+    display: block;
+}
+
+.cabecera-listado {
+    width: 220px;
+    border-bottom: 1px solid gray;
+}
+
+.tags {
+    border-bottom: 1px solid gray;
+}
+
+.tags ul {
+    padding: 0;
+    list-style: none;
+}
+
+.tags ul li {
+    padding: 2px 4px;
+    background-color: steelblue;
+    margin-right: 1px;
+    color: white;
+}
+
+.noticias-destacadas {
+    margin-bottom: 50px;
+}
+
+.noticias-destacadas img {
+    width: 220px;
+    height: 200px;
+}
+
+// Area de suscripción
+.newsletter {
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: inline-end;
+}
+
+.newsletter h2 {
+    font-size: 24px
+}
+
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}
+
+.group button {
+    background-color: coral;
+    color: white;
+}
+
+// Pie de pagina
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float: inline-end;
+}
